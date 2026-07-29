@@ -3,105 +3,620 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Talha Yusuf Uydu Montaj Hizmeti ve Onarım - İstanbul Silivri uydu montajı, sinyal ayarı, arıza ve onarım.">
-<title>Talha Yusuf Uydu | Silivri Uydu Montaj & Onarım</title>
+
+<title>Silivri Uydu Servisi | Talha & Yusuf Uydu Montaj</title>
+
+<meta name="description" content="Silivri uydu servisi. Talha & Yusuf Uydu Montaj; çanak anten kurulumu, uydu montajı, sinyal ayarı, arıza ve onarım ile merkezi uydu sistemi hizmetleri sunar.">
+<meta name="keywords" content="Silivri uydu servisi, Silivri uyducu, uydu montajı Silivri, çanak anten kurulumu Silivri, uydu sinyal ayarı Silivri, uydu arıza servisi Silivri, merkezi uydu sistemi Silivri">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Talha & Yusuf Uydu Montaj">
+
+<link rel="canonical" href="https://talhayusufuydu-cloud.github.io/Talha-yusuf-uydu-/">
+
+<meta property="og:title" content="Silivri Uydu Servisi | Talha & Yusuf Uydu Montaj">
+<meta property="og:description" content="İstanbul Silivri ve çevresinde uydu montajı, çanak anten kurulumu, sinyal ayarı, arıza ve onarım hizmetleri.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://talhayusufuydu-cloud.github.io/Talha-yusuf-uydu-/">
+
 <style>
-:root{--dark:#07111f;--blue:#0ea5e9;--green:#22c55e;--text:#172033;--muted:#64748b;--light:#f5f9fc}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--light);line-height:1.6}
-header{position:sticky;top:0;z-index:20;background:rgba(7,17,31,.96);color:white;padding:16px 6%;display:flex;align-items:center;justify-content:space-between}
-.logo{font-size:20px;font-weight:900}.logo b{color:#38bdf8}
-nav a{color:white;text-decoration:none;margin-left:24px;font-weight:700}
-.hero{min-height:620px;display:flex;align-items:center;padding:70px 6%;color:white;background:radial-gradient(circle at 80% 20%,#075985 0,#0b2238 35%,#07111f 75%)}
-.hero-inner{max-width:1100px;width:100%;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
-.badge{display:inline-block;background:rgba(14,165,233,.15);border:1px solid rgba(56,189,248,.35);padding:8px 14px;border-radius:999px;color:#7dd3fc;font-weight:800;margin-bottom:20px}
-h1{font-size:clamp(38px,6vw,66px);line-height:1.03;margin-bottom:20px}
-.hero p{font-size:20px;color:#dbeafe;max-width:680px;margin-bottom:28px}
-.buttons{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-block;padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:900}
-.call{background:var(--green);color:white}.wa{background:white;color:#0f172a}
-.dish{width:280px;height:280px;border:15px solid #cbd5e1;border-radius:50%;margin:auto;position:relative;transform:rotate(-12deg);box-shadow:0 20px 50px rgba(0,0,0,.35)}
-.dish:before{content:"";position:absolute;width:220px;height:15px;background:#94a3b8;left:15px;top:100px;transform:rotate(28deg);border-radius:20px}
-.dish:after{content:"";position:absolute;width:35px;height:35px;border-radius:50%;background:#38bdf8;right:18px;top:55px;box-shadow:0 0 30px #38bdf8}
-section{padding:78px 6%}.container{max-width:1100px;margin:auto}
-.heading{text-align:center;margin-bottom:42px}.heading h2{font-size:36px}.heading p{color:var(--muted)}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.card{background:white;border-radius:20px;padding:26px;box-shadow:0 10px 35px rgba(15,23,42,.07);border:1px solid #e5edf5}
-.icon{font-size:36px;margin-bottom:12px}.card h3{margin-bottom:8px}.card p{color:var(--muted)}
-.price{background:#e0f2fe}.pricebox{max-width:520px;margin:auto;background:white;border-radius:24px;padding:35px;text-align:center;box-shadow:0 15px 45px rgba(2,132,199,.12)}
-.pricebox .amount{font-size:44px;font-weight:900;color:#0369a1;margin:8px 0}
-.note{font-size:14px;color:var(--muted)}
-.contactbox{background:#07111f;color:white;border-radius:25px;padding:42px;text-align:center}
-.contactbox p{color:#cbd5e1;margin:10px 0 22px}.contactbox a{color:white}
-footer{background:#050b14;color:#94a3b8;text-align:center;padding:25px}
-.float{position:fixed;right:18px;bottom:18px;z-index:30;background:#22c55e;color:#fff;text-decoration:none;padding:15px 19px;border-radius:999px;font-weight:900;box-shadow:0 8px 25px rgba(0,0,0,.25)}
-@media(max-width:800px){nav{display:none}.hero-inner{grid-template-columns:1fr}.dish{width:210px;height:210px}.dish:before{width:165px;top:75px}.cards{grid-template-columns:1fr 1fr}section{padding:60px 5%}}
-@media(max-width:500px){.cards{grid-template-columns:1fr}.hero{padding:60px 5%}.hero p{font-size:18px}}
+:root{
+--dark:#07111f;
+--blue:#0ea5e9;
+--blue-dark:#0369a1;
+--green:#22c55e;
+--text:#172033;
+--muted:#64748b;
+--light:#f5f9fc;
+--white:#fff;
+}
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+color:var(--text);
+background:var(--light);
+line-height:1.6;
+}
+
+header{
+position:sticky;
+top:0;
+z-index:20;
+background:rgba(7,17,31,.97);
+color:white;
+padding:16px 6%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-shadow:0 4px 20px rgba(0,0,0,.15);
+}
+
+.logo{
+font-size:20px;
+font-weight:900;
+}
+
+.logo b{
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:24px;
+font-weight:700;
+}
+
+.hero{
+min-height:620px;
+display:flex;
+align-items:center;
+padding:70px 6%;
+color:white;
+background:
+radial-gradient(circle at 80% 20%,#075985 0,#0b2238 35%,#07111f 75%);
+}
+
+.hero-inner{
+max-width:1100px;
+width:100%;
+margin:auto;
+display:grid;
+grid-template-columns:1.25fr .75fr;
+gap:40px;
+align-items:center;
+}
+
+.badge{
+display:inline-block;
+background:rgba(14,165,233,.15);
+border:1px solid rgba(56,189,248,.35);
+padding:8px 14px;
+border-radius:999px;
+color:#7dd3fc;
+font-weight:800;
+margin-bottom:20px;
+}
+
+h1{
+font-size:clamp(38px,6vw,66px);
+line-height:1.03;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+color:#dbeafe;
+max-width:680px;
+margin-bottom:28px;
+}
+
+.buttons{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+}
+
+.btn{
+display:inline-block;
+padding:14px 22px;
+border-radius:12px;
+text-decoration:none;
+font-weight:900;
+}
+
+.call{
+background:var(--green);
+color:white;
+}
+
+.wa{
+background:white;
+color:#0f172a;
+}
+
+.dish{
+width:280px;
+height:280px;
+border:15px solid #cbd5e1;
+border-radius:50%;
+margin:auto;
+position:relative;
+transform:rotate(-12deg);
+box-shadow:0 20px 50px rgba(0,0,0,.35);
+}
+
+.dish:before{
+content:"";
+position:absolute;
+width:220px;
+height:15px;
+background:#94a3b8;
+left:15px;
+top:100px;
+transform:rotate(28deg);
+border-radius:20px;
+}
+
+.dish:after{
+content:"";
+position:absolute;
+width:35px;
+height:35px;
+border-radius:50%;
+background:#38bdf8;
+right:18px;
+top:55px;
+box-shadow:0 0 30px #38bdf8;
+}
+
+section{
+padding:78px 6%;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
+.heading{
+text-align:center;
+margin-bottom:42px;
+}
+
+.heading h2{
+font-size:36px;
+margin-bottom:8px;
+}
+
+.heading p{
+color:var(--muted);
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+padding:26px;
+box-shadow:0 10px 35px rgba(15,23,42,.07);
+border:1px solid #e5edf5;
+}
+
+.icon{
+font-size:36px;
+margin-bottom:12px;
+}
+
+.card h3{
+margin-bottom:8px;
+}
+
+.card p{
+color:var(--muted);
+}
+
+.area{
+background:white;
+}
+
+.area-box{
+max-width:900px;
+margin:auto;
+background:#f8fafc;
+border:1px solid #e2e8f0;
+border-radius:22px;
+padding:30px;
+text-align:center;
+}
+
+.area-box strong{
+color:var(--blue-dark);
+}
+
+.price{
+background:#e0f2fe;
+}
+
+.pricebox{
+max-width:520px;
+margin:auto;
+background:white;
+border-radius:24px;
+padding:35px;
+text-align:center;
+box-shadow:0 15px 45px rgba(2,132,199,.12);
+}
+
+.pricebox .amount{
+font-size:44px;
+font-weight:900;
+color:#0369a1;
+margin:8px 0;
+}
+
+.note{
+font-size:14px;
+color:var(--muted);
+}
+
+.contactbox{
+background:#07111f;
+color:white;
+border-radius:25px;
+padding:42px;
+text-align:center;
+}
+
+.contactbox p{
+color:#cbd5e1;
+margin:10px 0 22px;
+}
+
+.contactbox a{
+color:white;
+}
+
+footer{
+background:#050b14;
+color:#94a3b8;
+text-align:center;
+padding:25px;
+}
+
+.float{
+position:fixed;
+right:18px;
+bottom:18px;
+z-index:30;
+background:#22c55e;
+color:#fff;
+text-decoration:none;
+padding:15px 19px;
+border-radius:999px;
+font-weight:900;
+box-shadow:0 8px 25px rgba(0,0,0,.25);
+}
+
+@media(max-width:800px){
+nav{
+display:none;
+}
+
+.hero-inner{
+grid-template-columns:1fr;
+}
+
+.dish{
+width:210px;
+height:210px;
+}
+
+.dish:before{
+width:165px;
+top:75px;
+}
+
+.cards{
+grid-template-columns:1fr 1fr;
+}
+
+section{
+padding:60px 5%;
+}
+}
+
+@media(max-width:500px){
+.cards{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:60px 5%;
+}
+
+.hero p{
+font-size:18px;
+}
+
+h1{
+font-size:42px;
+}
+}
 </style>
+
+<!-- Google için işletme bilgilerini daha anlaşılır hale getiren yapılandırılmış veri -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"LocalBusiness",
+"@id":"https://talhayusufuydu-cloud.github.io/Talha-yusuf-uydu-/#business",
+"name":"Talha & Yusuf Uydu Montaj",
+"description":"İstanbul Silivri ve çevresinde uydu montajı, çanak anten kurulumu, sinyal ayarı, uydu arıza ve onarım hizmetleri.",
+"url":"https://talhayusufuydu-cloud.github.io/Talha-yusuf-uydu-/",
+"telephone":"+905313908842",
+"priceRange":"₺₺",
+"areaServed":{
+"@type":"City",
+"name":"Silivri"
+},
+"address":{
+"@type":"PostalAddress",
+"addressLocality":"Silivri",
+"addressRegion":"İstanbul",
+"addressCountry":"TR"
+},
+"openingHoursSpecification":[
+{
+"@type":"OpeningHoursSpecification",
+"dayOfWeek":[
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday"
+],
+"opens":"09:00",
+"closes":"20:00"
+}
+],
+"serviceType":[
+"Uydu montajı",
+"Çanak anten kurulumu",
+"Uydu sinyal ayarı",
+"Uydu arıza tespiti",
+"Uydu onarımı",
+"Merkezi uydu sistemi"
+]
+}
+</script>
+
 </head>
+
 <body>
 
 <header>
-  <div class="logo">Talha Yusuf <b>UYDU</b></div>
-  <nav><a href="#hizmetler">Hizmetler</a><a href="#fiyat">Fiyat</a><a href="#iletisim">İletişim</a></nav>
+<div class="logo">Talha Yusuf <b>UYDU</b></div>
+
+<nav>
+<a href="#hizmetler">Hizmetler</a>
+<a href="#bolge">Hizmet Bölgesi</a>
+<a href="#fiyat">Fiyat</a>
+<a href="#iletisim">İletişim</a>
+</nav>
 </header>
 
+
 <section class="hero">
- <div class="hero-inner">
-  <div>
-   <span class="badge">📍 İstanbul • Silivri</span>
-   <h1>Uydu Montajı & Onarım</h1>
-   <p>Uydu anteni montajı, sinyal ayarı, arıza tespiti ve merkezi uydu sistemleri için hızlı ve güvenilir servis.</p>
-   <div class="buttons">
-    <a class="btn call" href="tel:+905313908842">📞 0531 390 88 42</a>
-    <a class="btn wa" href="https://wa.me/905313908842?text=Merhaba%2C%20uydu%20servisi%20i%C3%A7in%20bilgi%20almak%20istiyorum.">💬 WhatsApp</a>
-   </div>
-  </div>
-  <div class="dish" aria-label="Uydu anteni görseli"></div>
- </div>
+
+<div class="hero-inner">
+
+<div>
+
+<span class="badge">📍 İstanbul • Silivri</span>
+
+<h1>Silivri Uydu Servisi</h1>
+
+<p>
+Talha & Yusuf Uydu Montaj olarak Silivri ve çevresinde
+uydu anteni montajı, çanak anten kurulumu, sinyal ayarı,
+arıza tespiti, onarım ve merkezi uydu sistemi hizmetleri sunuyoruz.
+</p>
+
+<div class="buttons">
+
+<a class="btn call" href="tel:+905313908842">
+📞 0531 390 88 42
+</a>
+
+<a class="btn wa" href="https://wa.me/905313908842?text=Merhaba%2C%20Silivri%20uydu%20servisi%20i%C3%A7in%20bilgi%20almak%20istiyorum.">
+💬 WhatsApp
+</a>
+
+</div>
+
+</div>
+
+<div class="dish" aria-label="Uydu anteni görseli"></div>
+
+</div>
+
 </section>
+
 
 <section id="hizmetler">
- <div class="container">
-  <div class="heading"><h2>Hizmetlerimiz</h2><p>Silivri ve çevresinde uydu sistemleri için servis.</p></div>
-  <div class="cards">
-   <div class="card"><div class="icon">📡</div><h3>Uydu Montajı</h3><p>Anten kurulumu, konumlandırma ve bağlantı işlemleri.</p></div>
-   <div class="card"><div class="icon">📶</div><h3>Sinyal Ayarı</h3><p>Sinyal kontrolü, ince ayar ve kanal kurulumu.</p></div>
-   <div class="card"><div class="icon">🔧</div><h3>Arıza & Onarım</h3><p>Sinyal yok, görüntü yok ve bağlantı sorunlarının kontrolü.</p></div>
-   <div class="card"><div class="icon">🏢</div><h3>Merkezi Sistem</h3><p>Apartman ve bina merkezi uydu sistemlerinde bakım ve onarım.</p></div>
-  </div>
- </div>
+
+<div class="container">
+
+<div class="heading">
+<h2>Silivri Uydu Hizmetleri</h2>
+<p>Uydu sistemleri için montaj, ayar, arıza ve onarım hizmetleri.</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">📡</div>
+<h3>Uydu Montajı</h3>
+<p>
+Çanak anten kurulumu, anten konumlandırma ve bağlantı işlemleri.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">📶</div>
+<h3>Sinyal Ayarı</h3>
+<p>
+Uydu sinyal kontrolü, hassas anten ayarı ve kanal kurulumu.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🔧</div>
+<h3>Uydu Arıza & Onarım</h3>
+<p>
+Sinyal yok, görüntü yok ve bağlantı sorunlarının tespiti ve onarımı.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🏢</div>
+<h3>Merkezi Uydu Sistemi</h3>
+<p>
+Apartman ve bina merkezi uydu sistemlerinde bakım ve onarım.
+</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
+
+
+<section id="bolge" class="area">
+
+<div class="container">
+
+<div class="heading">
+<h2>Hizmet Bölgemiz</h2>
+<p>Silivri ve çevresine uydu servisi.</p>
+</div>
+
+<div class="area-box">
+
+<p>
+<strong>Silivri uydu servisi</strong> olarak İstanbul
+<strong>Silivri</strong> ve çevresinde uydu montajı,
+çanak anten kurulumu, sinyal ayarı ve uydu arıza
+onarım hizmetleri sunuyoruz.
+</p>
+
+<br>
+
+<p>
+📍 Silivri / İstanbul
+</p>
+
+</div>
+
+</div>
+
+</section>
+
 
 <section id="fiyat" class="price">
- <div class="container">
-  <div class="heading"><h2>Servis Ücreti</h2><p>Şeffaf fiyatlandırma</p></div>
-  <div class="pricebox">
-   <div class="amount">1.500 TL</div>
-   <p>Servis / işçilik ücreti</p>
-   <p class="note">Kullanılacak malzeme ve parça ücretleri servis ücretine dahil değildir; ihtiyaç halinde ayrıca hesaplanır.</p>
-   <br>
-   <a class="btn call" href="tel:+905313908842">Servis İçin Ara</a>
-  </div>
- </div>
+
+<div class="container">
+
+<div class="heading">
+<h2>Servis Ücreti</h2>
+<p>Şeffaf fiyatlandırma</p>
+</div>
+
+<div class="pricebox">
+
+<div class="amount">1.500 TL</div>
+
+<p>Servis / işçilik ücreti</p>
+
+<p class="note">
+Kullanılacak malzeme ve parça ücretleri servis ücretine dahil değildir;
+ihtiyaç halinde ayrıca hesaplanır.
+</p>
+
+<br>
+
+<a class="btn call" href="tel:+905313908842">
+Servis İçin Ara
+</a>
+
+</div>
+
+</div>
+
 </section>
+
 
 <section id="iletisim">
- <div class="container">
-  <div class="contactbox">
-   <h2>Servis İçin Bize Ulaşın</h2>
-   <p>İstanbul Silivri ve çevresinde uydu montaj ve onarım hizmeti.</p>
-   <p style="font-size:25px;font-weight:900">📞 <a href="tel:+905313908842">0531 390 88 42</a></p>
-   <div class="buttons" style="justify-content:center">
-    <a class="btn call" href="tel:+905313908842">Hemen Ara</a>
-    <a class="btn wa" href="https://wa.me/905313908842?text=Merhaba%2C%20uydu%20servisi%20i%C3%A7in%20randevu%20almak%20istiyorum.">WhatsApp'tan Randevu</a>
-   </div>
-  </div>
- </div>
+
+<div class="container">
+
+<div class="contactbox">
+
+<h2>Silivri Uydu Servisi İçin Ulaşın</h2>
+
+<p>
+İstanbul Silivri ve çevresinde uydu montajı,
+çanak anten kurulumu, sinyal ayarı,
+arıza ve onarım hizmeti.
+</p>
+
+<p style="font-size:25px;font-weight:900">
+📞 <a href="tel:+905313908842">0531 390 88 42</a>
+</p>
+
+<div class="buttons" style="justify-content:center">
+
+<a class="btn call" href="tel:+905313908842">
+Hemen Ara
+</a>
+
+<a class="btn wa" href="https://wa.me/905313908842?text=Merhaba%2C%20Silivri%20uydu%20servisi%20i%C3%A7in%20randevu%20almak%20istiyorum.">
+WhatsApp'tan Randevu
+</a>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<footer>© 2026 Talha Yusuf Uydu Montaj Hizmeti ve Onarım • İstanbul / Silivri</footer>
-<a class="float" href="https://wa.me/905313908842?text=Merhaba%2C%20uydu%20servisi%20i%C3%A7in%20bilgi%20almak%20istiyorum.">💬 WhatsApp</a>
+
+<footer>
+© 2026 Talha & Yusuf Uydu Montaj • Silivri / İstanbul
+</footer>
+
+
+<a class="float" href="https://wa.me/905313908842?text=Merhaba%2C%20Silivri%20uydu%20servisi%20i%C3%A7in%20bilgi%20almak%20istiyorum.">
+💬 WhatsApp
+</a>
+
 </body>
 </html>
